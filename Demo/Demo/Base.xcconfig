@@ -10,3 +10,6 @@ CURRENT_PROJECT_VERSION = 0
 
 SWIFT_VERSION = 5.0
 SWIFT_STRICT_CONCURRENCY = complete
+
+// Keep the demo app and local Swift package products in the same build directory.
+SYMROOT = $(SRCROOT)/../build
